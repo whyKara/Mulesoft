@@ -64,18 +64,22 @@ insert_movie(movie1)
 insert_movie(movie2)
 insert_movie(movie3)
 
-
+print("\n\n Movies with name as 'Iron Man'")
 movie = get_movie_by_name('Iron Man')
 print(movie)
 
+print("\n\n Movies with actor as 'Robert Downey Jr.'")
 movie = get_movie_by_actor('Robert Downey Jr.')
 print(movie)
 
+print("\n\n Movies with actress as 'Gwyneth Paltrow'")
 movie = get_movie_by_actress('Gwyneth Paltrow')
 print(movie)
 
+print("\n\n Movies with director as 'Jon Favreau'")
 movie = get_movie_by_director('Jon Favreau')
 print(movie)
 
+print("\n\n Movies with year of release as '2013'")
 movie = get_movie_by_yor('2013')
 print(movie)
